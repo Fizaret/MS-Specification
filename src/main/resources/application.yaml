@@ -1,0 +1,12 @@
+server:
+  port: 5555
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:5005/SPEC?createDatabaseIfNotExist=true
+    username: root
+    password: password
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: false
+    open-in-view: true
